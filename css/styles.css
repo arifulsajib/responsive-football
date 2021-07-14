@@ -121,6 +121,12 @@ main {
     border-radius: 10px;
 }
 
+.partnars img:hover {
+    background-color: #bec0df;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
 /* Blog section (Bonus)*/
 .blog-section {
     display: flex;
