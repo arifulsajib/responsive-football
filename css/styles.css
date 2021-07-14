@@ -69,7 +69,7 @@ main {
 }
 
 /* Players section */
-.players-section {
+#players-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 27px;
@@ -104,7 +104,7 @@ main {
 }
 
 /* Partners Section (Bonus) */
-.partnars-section {
+#partnars-section {
     display: flex;
     align-items: center;
 }
@@ -114,6 +114,11 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 70px;
+}
+
+.partnars-container h2 {
+    font-weight: bold;
+    font-size: 28px;
 }
 
 .partnars {
@@ -137,7 +142,7 @@ main {
 }
 
 /* Blog section (Bonus)*/
-.blog-section {
+#blog-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,6 +151,11 @@ main {
 .blog-container {
     width: 90%;
     margin-top: 70px;
+}
+
+.blog-container h2 {
+    font-weight: bold;
+    font-size: 28px;
 }
 
 .all-blogs {
@@ -209,24 +219,24 @@ footer {
     justify-content: center;
 }
 
-.footer-section {
+#footer-section {
     width: 483px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.footer-section img {
+#footer-section img {
     width: 483px;
     height: 110px;
 }
 
-.footer-section img,
-.footer-section div {
+#footer-section img,
+#footer-section div {
     margin-bottom: 20px;
 }
 
-.footer-section a {
+#footer-section a {
     text-decoration: none;
     padding: 3px 8px;
     background-color: rgba(128, 128, 128, 0.2);
@@ -234,18 +244,18 @@ footer {
     margin-right: 14px;
 }
 
-.footer-section a:hover {
+#footer-section a:hover {
     background-color: #bec0df;
     transition: .5s;
 }
 
-.footer-section .fab {
+#footer-section .fab {
     width: 17px;
     height: 17px;
     color: #969BAB;
 }
 
-.footer-section p {
+#footer-section p {
     font-size: 18px;
     margin-top: 0;
 }
@@ -276,7 +286,7 @@ footer {
         margin-left: 15px;
     }
 
-    .players-section {
+    #players-section {
         width: 80%;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 47px;
@@ -301,11 +311,11 @@ footer {
         margin-top: 43px;
     }
 
-    .footer-section {
+    #footer-section {
         width: 280px;
     }
 
-    .footer-section img {
+    #footer-section img {
         width: 271px;
         height: 63px;
     }
@@ -324,7 +334,7 @@ footer {
         margin-left: 15px;
     }
 
-    .players-section {
+    #players-section {
         width: 90%;
         grid-template-columns: repeat(2, 1fr);
         margin-top: 47px;
@@ -338,11 +348,11 @@ footer {
         margin-top: 43px;
     }
 
-    .footer-section {
+    #footer-section {
         width: 280px;
     }
 
-    .footer-section img {
+    #footer-section img {
         width: 271px;
         height: 63px;
     }
