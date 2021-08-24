@@ -15,3 +15,5 @@ Responsive for different screen size. All done using Html and css only.
 ## Developer profile
 
 - LinkedIn - [Ariful Islam](https://www.linkedin.com/in/arifulsajib/)
+- Facebook - [Ariful Islam](https://www.facebook.com/arifulsajib347/)
+- Instagram - [Ariful Islam](https://www.instagram.com/arifulsajib347/)
