@@ -1,4 +1,4 @@
-## Responsive football wesite
+## Responsive football website
 Responsive for different screen size. All done using Html and css only.
 ### Built with
 
